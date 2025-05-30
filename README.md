@@ -36,7 +36,7 @@ pip install scapy
 ### Basic Syntax
 
 ```bash
-python mac_flood.py [OPTIONS]
+python SwitchKiller.py [OPTIONS]
 ```
 
 ## 🔋 Options
@@ -50,20 +50,20 @@ python mac_flood.py [OPTIONS]
 
 ## 📌 Examples
 
-### 🢨 Stress Mode (default)
+### 💨 Stress Mode (default)
 
 Flood the network rapidly with fake MACs:
 
 ```bash
-python mac_flood.py -i eth0
+python SwitchKiller.py -i eth0
 ```
 
-### 🚐 Stealth Mode
+### 🐢 Stealth Mode
 
 Slow, targeted flooding to mimic more realistic attack patterns:
 
 ```bash
-python mac_flood.py -i eth0 -m stealth -d 2 -c 100
+python SwitchKiller.py -i eth0 -m stealth -d 2 -c 100
 ```
 
 ## 🧠 How It Works
@@ -78,7 +78,7 @@ python mac_flood.py -i eth0 -m stealth -d 2 -c 100
 * Run as **root or with sudo**:
 
   ```bash
-  sudo python mac_flood.py -i eth0
+  sudo python SwitchKiller.py -i eth0
   ```
 
 * Avoid running this on production networks — use only in test environments.
