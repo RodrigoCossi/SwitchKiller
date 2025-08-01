@@ -83,7 +83,3 @@ python SwitchKiller.py -i eth0 -m stealth -d 2 -c 100
 
 * Avoid running this on production networks — use only in test environments.
 
-> ⚠️ **Disclaimer:**
-> This tool is for **educational and authorized testing purposes only**.
-> The author is **not responsible** for any misuse or damage caused.
-> Use only on networks you **own** or have **explicit permission** to test.
