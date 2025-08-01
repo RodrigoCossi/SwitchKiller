@@ -3,7 +3,7 @@
 A powerful and flexible MAC flooding script built with [Scapy](https://scapy.net), designed for both stress testing and stealthy ARP-based simulations.
 It floods switches on the same LAN with Ethernet frames from fake MACs. It causes switches to overflow their MAC table and revert to flooding mode.
 This allows an attacker to sniff traffic they shouldn’t see.
-
+<br></br>
 > ⚠️ **Disclaimer:**  
 > This tool is for **educational and authorized testing purposes only**.  
 > The author is **not responsible** for any misuse or damage caused.  
